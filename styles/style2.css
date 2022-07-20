@@ -5,9 +5,8 @@
 }
 .match-pic{
     display: flex;
-    flex: 33.3%;
+    flex: 33.33%;
     padding: 5%;
-    padding-left: 5%;
-    padding-right: 5%;
+
 
 }
