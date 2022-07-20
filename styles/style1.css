@@ -1,11 +1,16 @@
 /* import font */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 /* Utilities */
+
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+
+/* Header style 
+------------------------------*/
 
 header{
     display: flex;
@@ -14,7 +19,9 @@ header{
     border-radius: 30px;
     margin: 3% 7%;
     margin-bottom: 7%;
+    
 }
+
 header .header-text{
     width: 50%;
     color: white;
@@ -28,10 +35,23 @@ header .header-text{
     line-height: 80px;
     margin:0;
 }
-.banner img{
-    position: absolute;
-    height: 100%;
+.header-button{
+    color: white;
+    font-size: 20px;
+    background-color: orange;
+    border-radius: 5px;
+    padding: 16px 25px;
+    transition: width 1s,transform 2s;
+
 }
+.header-button:hover{
+    width: 250px;
+    transform: rotateY(360deg);
+}
+.header-button span{
+    padding-left:15px;
+}
+
 header .banner{
     width: 50%;
     position: relative;
@@ -39,32 +59,26 @@ header .banner{
     bottom: 0;
 }
 .banner img{
-position: absolute;
-bottom: 0;
-height: 90%;
-width: auto;
-z-index: 1;
-right: 3%;
-}
-.header-button{
-    color: white;
-    font-size: 20px;
-    background-color: orange;
-    border-radius: 5px;
-    padding: 16px 25px;
-
-
-}
-.header-button span{
-    padding-left:15px;
+    position: absolute;
+    bottom: 0;
+    height: 90%;
+    width: auto;
+    z-index: 1;
+    right: 3%;
 }
 
 /* main */
+
 main{
     display: flex;
     margin: 0 7%;
 }
-/* Side bar styles */
+
+
+/* Side bar styles
+-----------------------------*/
+
+
 aside{
     width:25%;
     display: flex;
@@ -102,7 +116,12 @@ aside{
     padding-top: 17px;
     padding-bottom: 17px;
 }
-/* Blogs style */
+
+
+
+/* Blogs style 
+-----------------------*/
+
 .blogs{
     width:75%;
     display: grid;
@@ -154,7 +173,9 @@ aside{
 
 
 
-/* Footer style */
+/* Footer style 
+------------------------*/
+
 footer{
     display: block;
     padding: 7%;
@@ -185,7 +206,11 @@ footer{
     
     
 }
-/* Media  queries */
+
+
+
+/* Media  queries
+---------------------------- */
 
 /* Tablet Devices */
 @media only screen and (min-width:688px) and (max-width:992px) {
