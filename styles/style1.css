@@ -6,9 +6,10 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+
 header{
     display: flex;
-    background-color: black;
+    background-color: rgb(70, 13, 162);
     margin-top: 5%;
     border-radius: 30px;
     margin: 3% 7%;
@@ -48,9 +49,11 @@ right: 3%;
 .header-button{
     color: white;
     font-size: 20px;
-    background: #DD0000;
+    background-color: orange;
     border-radius: 5px;
     padding: 16px 25px;
+
+
 }
 .header-button span{
     padding-left:15px;
@@ -70,14 +73,14 @@ aside{
     align-items: center;
     width: 312px;
     height: 312px;
-    background-color: black;
+    background-color: rgb(70, 13, 162);
     border-radius: 10px;
     margin-right: 3%;
 
 }
 .side-buttons{
     display: block;
-    color: black;
+    color: rgb(70, 13, 162);
     background-color: rgb(255, 255, 244);
     width: 252px;
     border-radius: 10px;
@@ -90,7 +93,7 @@ aside{
 #highlight{
     display: block;
     color: white;
-    background-color: red;
+    background-color: orange;
     width: 252px;
     border-radius: 10px;
     font-size: 20px;
@@ -108,7 +111,7 @@ aside{
 }
 .blog{
     display: block;
-    border:1px solid #E8E8E8;
+    border:1px solid #b4b3b3;
     border-radius: 5px;
     margin-left: 3%;
     margin-right: 3%;
@@ -125,12 +128,13 @@ aside{
 }
 .blog-details a{
     padding: 4px 17px;
-    border: 2px solid black;
+    border: 2px solid orange;
     font-size: 16px;
     border-radius: 5px;
     text-decoration: none;
 }
 .blog-details p{
+    color:rgb(54, 54, 54);
     font-weight: 600;
     font-size: 18px;
 }
@@ -155,7 +159,7 @@ footer{
     padding: 7%;
     text-align: center;
     color: white;
-    background-color: black;
+    background-color: rgb(70, 13, 162);
     text-decoration: none;
 
 }
@@ -186,7 +190,7 @@ footer{
 @media only screen and (min-width:688px) and (max-width:992px) {
     header{
         display: flex;
-        background-color: black;
+        background-color: rgb(70, 13, 162);
         margin-top: 5%;
         border-radius: 30px;
         margin: 3% 7%;
@@ -215,7 +219,7 @@ footer{
     .header-button{
         color: white;
         font-size: 20px;
-        background: #DD0000;
+        background: orange;
         border-radius: 5px;
         padding: 16px 25px;
     }
@@ -280,7 +284,7 @@ aside{
         height: 50px;
         color: white;
         font-size: 15px;
-        background: #DD0000;
+        background: orange;
         border-radius: 5px;
         
     }
@@ -293,7 +297,7 @@ aside{
     header{
         flex-direction: column;
         justify-content: center;
-        background-color: black;
+        background-color: rgb(70, 13, 162);
         margin-top: 5%;
         border-radius: 30px;
         margin-bottom: 7%;
@@ -322,7 +326,7 @@ aside{
     .header-button{
         color: white;
         font-size: 18px;
-        background: #DD0000;
+        background: orange;
         border-radius: 5px;
         padding: 12px 20px;
     }
@@ -358,7 +362,7 @@ aside{
 }
 .side-buttons{
     display: block;
-    color: black;
+    color: rgb(70, 13, 162);
     background-color: rgb(255, 255, 244);
     font-size: 20px;
     text-align: center;
@@ -378,10 +382,7 @@ aside{
         margin-bottom: 7%;
     }
     .blog-button{
-        visibility: hidden;
-
-
-        
+        visibility: hidden;  
     }
 
     .bottom-part{
