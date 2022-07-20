@@ -87,7 +87,18 @@ aside{
     padding-top: 17px;
     padding-bottom: 17px;
 }
-
+#highlight{
+    display: block;
+    color: white;
+    background-color: red;
+    width: 252px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
 /* Blogs style */
 .blogs{
     width:75%;
