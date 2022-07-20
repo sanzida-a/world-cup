@@ -81,7 +81,7 @@ aside{
 .side-buttons{
     display: block;
     color: rgb(70, 13, 162);
-    background-color: rgb(255, 255, 244);
+    background-color: white;
     width: 252px;
     border-radius: 10px;
     font-size: 20px;
@@ -145,6 +145,7 @@ aside{
     padding-right: 30px;
 }
 .blog-info i{
+    color:orange;
     padding-right: 8px;
 }
 .blog-button{
@@ -168,7 +169,7 @@ footer{
 
 }
 .footer hr{
-    border: 1px solid white;
+    border: 1px solid rgb(108, 87, 180);
 }
 .bottom-part{
     display: inline;
@@ -259,7 +260,7 @@ aside{
 }
 .side-buttons{
     color: black;
-    background-color: rgb(255, 255, 244);
+    background-color: white;
     width: 200px;
     justify-content: space-between;
     margin: 0 1%;
@@ -363,7 +364,7 @@ aside{
 .side-buttons{
     display: block;
     color: rgb(70, 13, 162);
-    background-color: rgb(255, 255, 244);
+    background-color: white;
     font-size: 20px;
     text-align: center;
     text-decoration: none;
