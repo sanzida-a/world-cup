@@ -4,5 +4,84 @@
 /* Utilities */
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0 7%;
 
+}
+header{
+    display: flex;
+    background-color: black;
+    margin-top: 50px;
+    border-radius: 30px;
+    margin-bottom: 7%;
+}
+header .header-text{
+    width: 50%;
+    color: white;
+    align-items: center;
+    padding: 7%;
+}
+.header-title{
+    font-size: 70px;
+    line-height: 80px;
+    margin:0;
+}
+header .banner{
+    width: 50%;
+    padding-top: 2%;
+}
+.banner img{
+position: relative;
+height: 100%;
+left:-50px;
+}
+.header-button{
+    color: white;
+    font-size: 20px;
+    background: #DD0000;
+    border-radius: 5px;
+    padding: 16px 25px;
+}
+.header-button span{
+    padding-left:15px;
+}
+
+/* main */
+main{
+    display: grid;
+    grid-template-columns: 25% 75%;
+
+}
+/* Side bar styles */
+aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 312px;
+    height: 312px;
+    background-color: black;
+    border-radius: 10px;
+   
+
+}
+.side-buttons{
+    color: black;
+    background-color: rgb(255, 255, 244);
+    width: 252px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+/* Blogs style */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.blog{
+    display: block;
+    
 }
